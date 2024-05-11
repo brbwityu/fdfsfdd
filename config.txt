@@ -12,4 +12,4 @@ discordid = 541337117826220035
 //The profit margin is the percentage of the rap value that the sniper will target. For instance, 1000 rap item with a price of 650. If the profit margin is at .7, the item will be sniped. If it's at .5, it will not be sniped. Essentially the equation is: if price < profitmargin*itemRAP.
 profitmargin = .5
 
-debug = false
+debug = true
