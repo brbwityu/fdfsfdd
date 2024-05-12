@@ -104,7 +104,7 @@ func siftProxies() {
 			port := proxyParts[1]
 			username := proxyParts[2]
 			password := proxyParts[3]
-			rl := fmt.Sprintf("%s:%s:%s:%s", username, password, ip, port)
+			rl := fmt.Sprintf("%s:%s@%s:%s", username, password, ip, port)
 
 			unusedproxies = append(unusedproxies, rl)
 		} else {
